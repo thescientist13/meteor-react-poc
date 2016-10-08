@@ -17,12 +17,25 @@ If you haven't, install the latest [Meteor](https://www.meteor.com/install) and 
 
 1. Run `meteor npm install`
 
-## Running the app
+## Running
 
 1. Run `npm run start`
 
+## Building
+Note: To build iOS application, you will need Xcode 7.2 or higher.  Follow the instructions [here][].
+
+### Mobile
+1. For iOS, run `meteor run ios`
+
+TODO - android support
+
+[here]: https://guide.meteor.com/mobile.html#installing-prerequisites
 
 ## Appendix
+
+### TODO
+1. Rest of the guide
+2. Hosting
 
 ### Interacting with Mongo
 
