@@ -20,3 +20,12 @@ If you haven't, install the latest [Meteor](https://www.meteor.com/install) and 
 ## Running the app
 
 1. Run `npm run start`
+
+
+## Appendix
+
+### Interacting with Mongo
+
+1. Start the app - `npm run start`
+2. Connect to Mongo - `meteor mongo`
+3. Insert some data - `db.tasks.insert({ text: "Hello world!", createdAt: new Date() });`
